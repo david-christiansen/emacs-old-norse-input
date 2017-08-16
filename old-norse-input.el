@@ -1,8 +1,8 @@
 ;;; old-norse-input.el --- An input method for Old Norse  -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2017  David Raymond Christiansen
+;; Copyright (C) 2017  David Christiansen
 
-;; Author: David Raymond Christiansen <davidchr@davidchr>
+;; Author: David Christiansen <david@davidchristiansen.dk>
 ;; Keywords: languages
 
 ;; This program is free software; you can redistribute it and/or modify
