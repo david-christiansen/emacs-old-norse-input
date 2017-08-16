@@ -4,7 +4,7 @@
 
 ;; Author: David Christiansen <david@davidchristiansen.dk>
 ;; Version: 0.9
-;; Package-Requires: ()
+;; Package-Requires: ((emacs "24"))
 ;; Keywords: languages
 ;; Homepage: https://github.com/david-christiansen/emacs-old-norse-input
 
