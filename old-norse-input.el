@@ -3,7 +3,12 @@
 ;; Copyright (C) 2017  David Christiansen
 
 ;; Author: David Christiansen <david@davidchristiansen.dk>
+;; Version: 0.9
+;; Package-Requires: ()
 ;; Keywords: languages
+;; Homepage: https://github.com/david-christiansen/emacs-old-norse-input
+
+;; This file is not part of GNU Emacs.
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -37,11 +42,13 @@
 ;;; Code:
 (require 'quail)
 
+;;;###autoload
 (quail-define-package
  "old-norse" "Old Norse" "Þ" t
  "An input method for Old Norse text"
  nil t t nil t nil nil nil nil nil t)
 
+;;;###autoload
 (quail-define-rules
  ("\\th" ?þ)
  ("\\TH" ?Þ)
